@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{0d0a9722-1ae9-487b-a63c-ef2fb436ad10}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Flashcard.py</StartupFile>
+    <StartupFile>flashcards.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -24,6 +24,9 @@
     <Compile Include="Flashcard.py" />
     <Compile Include="FlashcardDispenser.py" />
     <Compile Include="FlashcardRepository.py" />
+    <Compile Include="flashcards.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
